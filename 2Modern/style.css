@@ -1,0 +1,293 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-
+	serif;
+
+	font-size: 15px;
+	line-height: 1.6;
+	color: #333;
+	background-color: #fbfbfb;
+}
+
+*,
+*before,
+*after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	padding-right: 100px;
+}
+
+li {
+	color: #818181;
+}
+
+p {
+	color: #818181;
+	text-align: right;
+}
+
+/* Header 
+========================*/
+.container {
+	width: 100%;
+	max-width: 945px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/* Header 
+========================*/
+.header {
+	width: 100%;
+	padding-top: 60px;
+
+	position: flex;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 53px 0 20px;
+	
+}
+
+.header__logo {
+	font-size: 26px;
+	font-weight: 700;
+	color: #007ee5;
+}
+
+.shadow {
+	background: #fff; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 0px;
+}
+
+
+/* Nav
+========================*/
+.nav__link {
+	margin-left: 23px;
+	color: #007ee5;
+	text-decoration: none;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+/* Butten
+========================*/
+.btn {
+	background-color: #007ee5;
+	color: #fff;
+	padding: 7px 21px;
+	border-radius: 6px;
+
+}
+
+/* Intro
+========================*/
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	padding: 60px 0 30px;
+
+}
+
+.intro__inner {
+	width: 100%;
+	max-width: 945px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.intro__title {
+	display: block;
+	padding-bottom: 30px;
+	font-size: 36px;
+
+}
+
+
+/* Cards
+========================*/
+.cards	{
+	padding-top: 30px;
+}
+
+.cards__inner {
+	display: block;
+	max-width: 485px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cards__title {
+	padding-bottom: 30px;
+	font-size: 36px;
+}
+
+.cards__sibtitle {
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+.cards__box {
+	display: flex;
+}
+
+.cards__item {
+    width: 33.33333%;
+    padding: 60px 30px;
+    margin: 30px 0;
+    text-align: center;
+
+    background: #fff; /* Цвет фона */
+    box-shadow: 0 0 15px rgba(0,0,0,0.3); /* Параметры тени */
+}
+
+.cards--left {
+	margin-right: 30px;
+	float: left;
+}
+
+.cards--rigt {
+	margin-left: 30px;
+	float: right;
+}
+
+.cards--center {
+	text-align: center;
+	padding-top: 0;
+}
+
+
+.cards__text {
+	text-align: center;
+	font-size: 20px;
+}
+
+.cards__img {
+	justify-content: center;
+}
+
+/* Offers
+========================*/
+.offers__item {
+	justify-content: space-between;
+	display: flex;
+	padding: 60px 0;
+}
+
+.offers__text {
+	width: 50%;
+}
+
+.offers__title {
+	padding-bottom: 30px;
+	font-size: 36px;
+}
+
+.offers__sibtitle {
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+.offers__img {
+	max-width: 50%;
+	height: auto;
+	margin: auto 0;
+}
+
+/* Account
+========================*/
+.account {
+	height: 230px;
+	padding-bottom: 30px; 
+	background: #fff; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 0px;
+}
+
+.account__inner {
+	text-align: center;
+}
+
+.account__title {
+	padding: 50px 0;
+	display: block;
+
+	padding-bottom: 30px;
+	font-size: 28px;
+	font-weight: 200;
+}
+
+.account__btn {
+	font-size: 20px;
+	justify-content: center;
+	display: flex;
+}
+
+.btn--grey {
+	width: 255px;
+	height: 24px;
+	font-weight: 300;
+
+	background-color: #302d2d;
+	color: #fff;
+	padding: 20px;
+	border-radius: 6px;
+	margin-right: 10px;
+
+}
+
+.btn--blue {
+	padding-left: 10px;
+	width: 255px;
+	height: 24px;
+	font-weight: 300;
+
+	background-color: #007ee5;
+	color: #fff;
+	padding: 20px;
+	border-radius: 6px;
+	margin-left: 10px;
+
+}
+
+
+/* Footer
+========================*/
+.footer {
+	display: flex;
+}
+
+.footer__inner {
+	display: flex;
+	padding: 30px 0 100px;
+}
+
+.footer__ul {
+	width: 100%;
+	display: flex;
+}
+
+.footer__autor {
+	padding: 60px 20px;
+}
+
